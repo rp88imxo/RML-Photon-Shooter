@@ -10,7 +10,8 @@ public class AppSett : MonoBehaviour
     private void Awake()
     {
         Application.targetFrameRate = TargetFPS;
-        Debug.Log($"Whats wrong with unity!?rrwwarwaarwar");
+        Debug.Log("Test Unity Crash 42");
+
     }
 
     
