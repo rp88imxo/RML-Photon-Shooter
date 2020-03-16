@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d77cfd4b93864d46812eb7794a9bf1e, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  WeaponName: Pistol
+  fireRate: 30
+  maxShootDistance: 50
+  aimSpeed: 10
+  EnableSpread: 1
+  DistanceSpread: 1000
+  spreading: 20
+  AimSpreading: 5
+  recoil: 2
+  recoilAim: 1
+  recoilRotate: -45
+  recoilRotateInAim: -3
+  recoilSpeed: 5
+  recoilRandomDirectionRadius: 3
+  recoilRandomDirectionRadiusAim: 0.25
+  kickback: 0.25
+  kickbackSpeed: 25
+  prefab: {fileID: 7642238536384027138, guid: 006ec184170b8ac49ad6ff6b524173c3, type: 3}
+  bulletHole: {fileID: 8306641281939623250, guid: dd7d7578bdc62c4468dfa92ead003722,
+    type: 3}
+  MaxAmountBulletsHoles: 500
